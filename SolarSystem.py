@@ -745,10 +745,10 @@ menuwidth = 250
 size = width + menuwidth, height
 screen = pygame.display.set_mode(size)
 icon = pygame.image.load('SolarSystem.png')
-menuImage = pygame.image.load('Backgrounds/doodad-2.png').convert()
+menuImage = pygame.image.load('Backgrounds/Background.png').convert()
 pygame.display.set_icon(icon)
-font = pygame.font.SysFont('Comic Sans MS', 20)
-bigfont = pygame.font.SysFont('Comic Sans MS', 40)
+font = pygame.font.SysFont('Arial', 12)
+bigfont = pygame.font.SysFont('Arial', 20, bold=True)
 
 
 borderwidth = 3
